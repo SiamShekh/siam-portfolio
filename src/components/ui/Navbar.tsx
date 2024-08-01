@@ -42,7 +42,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <NavLink to={'/'} className={'text-23px text-black rounded-2xl shadow-custom font-bold px-[20px] font-poppins py-[16px] bg-white'}>Let’s Talk</NavLink>
+                <NavLink to={'https://t.me/Siam_shekh_n'} className={'text-23px text-black rounded-2xl shadow-custom font-bold px-[20px] font-poppins py-[16px] bg-white'}>Let’s Talk</NavLink>
             </div>
         </div>
     );

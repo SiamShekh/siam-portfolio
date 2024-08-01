@@ -37,8 +37,8 @@ const About = () => {
                     </div>
 
                     <div className="flex items-center gap-10 flex-col lg:flex-row md:flex-row mt-5">
-                        <Link to={'/'} className="bg-[#1D142B] text-white px-7 text-xl py-2 rounded-lg w-fit liner_border_link_active">Hire me</Link>
-                        <Link to={'/'} className="bg-[#1D142B] text-white px-7 text-xl py-2 rounded-lg w-fit liner_border_link_active">Portfolio</Link>
+                        <Link to={'https://t.me/Siam_shekh_n'} className="bg-[#1D142B] text-white px-7 text-xl py-2 rounded-lg w-fit liner_border_link_active">Hire me</Link>
+                        <Link to={'/#portfolio'} className="bg-[#1D142B] text-white px-7 text-xl py-2 rounded-lg w-fit liner_border_link_active">Portfolio</Link>
                     </div>
                 </div>
             </div>

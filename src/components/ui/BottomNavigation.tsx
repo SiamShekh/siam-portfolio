@@ -29,21 +29,21 @@ const BottomNavigation = () => {
                         <div className="bg-gradient-to-r from-[#FF5C00] via-[#AE2791] to-[#7000FF] rounded-full p-[2px] relative">
                             <div className="rounded-full bg-black">
                                 <div className="scale-[0.7]">
-                                    <Link to={'/#home'} className="text-4xl font-roboto text-[#AE2791] "><FaTelegramPlane /></Link>
+                                    <Link to={'https://t.me/Siam_shekh_n'} className="text-4xl font-roboto text-[#AE2791] "><FaTelegramPlane /></Link>
                                 </div>
                             </div>
                         </div>
                         <div className="bg-gradient-to-r from-[#FF5C00] via-[#AE2791] to-[#7000FF] rounded-full p-[2px] relative">
                             <div className="rounded-full bg-black">
                                 <div className="scale-[0.7]">
-                                    <Link to={'/#home'} className="text-4xl font-roboto text-[#AE2791] "><FaXTwitter /></Link>
+                                    <Link to={'https://x.com/siiiiam_dev'} className="text-4xl font-roboto text-[#AE2791] "><FaXTwitter /></Link>
                                 </div>
                             </div>
                         </div>
                         <div className="bg-gradient-to-r from-[#FF5C00] via-[#AE2791] to-[#7000FF] rounded-full p-[2px] relative">
                             <div className="rounded-full bg-black">
                                 <div className="scale-[0.7]">
-                                    <Link to={'/#home'} className="text-4xl font-roboto text-[#AE2791] "><FaLinkedinIn /></Link>
+                                    <Link to={'https://www.linkedin.com/in/siamshekh/'} className="text-4xl font-roboto text-[#AE2791] "><FaLinkedinIn /></Link>
                                 </div>
                             </div>
                         </div>
