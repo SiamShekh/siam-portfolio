@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 import img from "../../assets/images/siam_portfulio_images.webp";
-
+import portfolio from "../../assets/pdf/Siam-(Frontend Developer).pdf";
 const Home = () => {
     return (
         <div className="max-w-[1300px] mx-auto lg:h-[80vh] overflow-hidden p-5 lg:px-0">
@@ -8,7 +8,7 @@ const Home = () => {
                 <div className="flex-1">
                     <h1 className="text-white lg:text-[60px] text-4xl font-roboto">I'm <strong>Siam Sheikh</strong></h1>
                     <p className="text-white font-roboto text-[20px] my-5">Seasoned professional <span className="bg-gradient-to-r from-[#0055ffec] via-[#B275FF61] to-[#FF00F576] text-transparent bg-clip-text">#web3 marketing</span> & <span className="bg-gradient-to-r from-[#0055ffec] via-[#B275FF61] to-[#FF00F576] text-transparent bg-clip-text">full-stack developer</span> optimization pro. ⚡️</p>
-                    <a href="#" className="bg-white text-black px-5 py-3 border-b-4 border-blue-500 font-semibold rounded-xl font-roboto ">Download CV</a>
+                    <a href={portfolio} download={'siam-portfolio'} className="bg-white text-black px-5 py-3 border-b-4 border-blue-500 font-semibold rounded-xl font-roboto ">Download CV</a>
                 </div>
                 <div className="flex-1 flex justify-center items-center">
                     <div>

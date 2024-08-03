@@ -103,7 +103,7 @@ const Portfolio = () => {
                                 <Features_item title="Dua For Everyday" />
                                 <Features_item title="Bookmarks" />
                             </div>
-                            <div className="flex justify-between items-center mt-5 w-full">
+                            <div className="flex justify-around items-center flex-col gap-5 lg:flex-row mt-5 w-full">
                                 <Link to={'https://play.google.com/store/apps/details?id=com.JannatiSobdo.nur_e_quran'} replace className="bg-[#201433] text-white px-7 text-xl py-2 rounded-lg w-fit liner_border_link_active">Project</Link>
                             </div>
                         </div>
@@ -127,7 +127,7 @@ const Portfolio = () => {
                                 <Features_item title="Roadmaps" />
                                 
                             </div>
-                            <div className="flex justify-around items-center mt-5 w-full">
+                            <div className="flex justify-around items-center flex-col gap-5 lg:flex-row mt-5 w-full">
                                 <Link to={'https://aa-vault.vercel.app/#intro'} replace className="bg-[#201433] text-white px-7 text-xl py-2 rounded-lg w-fit liner_border_link_active">Project</Link>
                                 <Link to={'https://github.com/SiamShekh/aa-vault-react-js.git'} replace className="bg-[#201433] text-white px-7 text-xl py-2 rounded-lg w-fit liner_border_link_active">Source Code</Link>
                             </div>

@@ -24,7 +24,9 @@ function App() {
   return (
     <div className="bg-[#0A0019] min-h-screen relative">
       <section id="home">
-        <nav className="h-[20vh] z-50 relative"><Navbar /></nav>
+        <nav className="h-[20vh] z-50 relative">
+          <Navbar />
+        </nav>
         <div className="z-0 relative">
           <Home />
         </div>
