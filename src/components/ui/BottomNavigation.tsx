@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/icons/Logo.png";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 
@@ -44,6 +44,14 @@ const BottomNavigation = () => {
                             <div className="rounded-full bg-black">
                                 <div className="scale-[0.7]">
                                     <Link to={'https://www.linkedin.com/in/siamshekh/'} className="text-4xl font-roboto text-[#AE2791] "><FaLinkedinIn /></Link>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-gradient-to-r from-[#FF5C00] via-[#AE2791] to-[#7000FF] rounded-full p-[2px] relative">
+                            <div className="rounded-full bg-black">
+                                <div className="scale-[0.7]">
+                                    <Link to={'https://github.com/siamshekh'} className="text-4xl font-roboto text-[#AE2791] "><FaGithub /></Link>
                                 </div>
                             </div>
                         </div>
