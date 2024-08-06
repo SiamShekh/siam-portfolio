@@ -6,10 +6,10 @@ const Navbar = () => {
 
     return (
         <div className="fixed top-0 w-full  mx-auto">
-            <div className="navbar bg-[#D9D9D91A] my-[2.5vh] max-w-[1200px] max-h-[15vh] px-3 lg:px-10 backdrop-blur-xl flex justify-between items-center rounded-3xl w-fit lg:w-full mx-auto">
+            <div className="navbar bg-[#D9D9D91A] my-[2.5vh] max-w-[1200px] max-h-[15vh] px-3 lg:px-10 backdrop-blur-xl flex justify-between items-center rounded-3xl w-11/12 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost bg-white lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost bg-white lg:hidden text-black">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end ml-10 lg:ml-0">
-                    <NavLink to={'https://t.me/Siam_shekh_n'} className={'text-23px text-black rounded-2xl shadow-custom font-bold px-[20px] font-poppins py-[16px] bg-white'}>Let’s Talk</NavLink>
+                    <NavLink to={'https://t.me/Siam_shekh_n'} className={'text-23px text-black rounded-2xl shadow-custom font-bold px-[20px] font-poppins py-[8px] bg-white'}>Let’s Talk</NavLink>
                 </div>
             </div>
         </div>

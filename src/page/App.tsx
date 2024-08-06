@@ -1,13 +1,9 @@
 import { useEffect } from "react";
-import About from "./components/heros/about"
-import Home from "./components/heros/home"
-import Navbar from "./components/ui/Navbar"
+import About from "../components/heros/about"
+import Home from "../components/heros/home"
 import { useLocation } from "react-router-dom";
-import Portfolio from "./components/heros/portfolio";
-import Services from "./components/heros/services";
-import BottomNavigation from "./components/ui/BottomNavigation";
-
-
+import Portfolio from "../components/heros/portfolio";
+import Services from "../components/heros/services";
 
 function App() {
   const { hash } = useLocation();
@@ -23,10 +19,9 @@ function App() {
 
   return (
     <div className="bg-[#0A0019] min-h-screen relative">
+      
       <section id="home">
-        <nav className="h-[20vh] z-50 relative">
-          <Navbar />
-        </nav>
+
         <div className="z-0 relative">
           <Home />
         </div>
@@ -41,7 +36,6 @@ function App() {
         <Services />
       </section>
 
-      <BottomNavigation />
     </div>
 
   )
